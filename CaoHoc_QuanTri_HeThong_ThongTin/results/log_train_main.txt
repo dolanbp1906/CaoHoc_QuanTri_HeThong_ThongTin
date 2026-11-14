@@ -1,0 +1,45 @@
+lr seed=1001 fit=2.7s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1002 fit=2.7s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1003 fit=3.2s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1004 fit=3.1s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1005 fit=3.0s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1006 fit=2.9s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1007 fit=3.6s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1008 fit=3.6s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1009 fit=3.5s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+lr seed=1010 fit=3.5s | raw: AUC=0.743 Brier=0.1718 ECE=0.0288 platt: AUC=0.743 Brier=0.1769 ECE=0.0713 isotonic: AUC=0.743 Brier=0.1769 ECE=0.0732 platt_oof: AUC=0.743 Brier=0.1717 ECE=0.0274
+rf seed=1001 fit=11.0s | raw: AUC=0.762 Brier=0.1666 ECE=0.0224 platt: AUC=0.762 Brier=0.1721 ECE=0.0640 isotonic: AUC=0.761 Brier=0.1722 ECE=0.0607 platt_oof: AUC=0.762 Brier=0.1659 ECE=0.0104
+rf seed=1002 fit=12.7s | raw: AUC=0.763 Brier=0.1663 ECE=0.0199 platt: AUC=0.763 Brier=0.1721 ECE=0.0654 isotonic: AUC=0.762 Brier=0.1722 ECE=0.0623 platt_oof: AUC=0.763 Brier=0.1657 ECE=0.0076
+rf seed=1003 fit=13.2s | raw: AUC=0.762 Brier=0.1665 ECE=0.0216 platt: AUC=0.762 Brier=0.1721 ECE=0.0641 isotonic: AUC=0.762 Brier=0.1722 ECE=0.0613 platt_oof: AUC=0.762 Brier=0.1658 ECE=0.0089
+rf seed=1004 fit=13.2s | raw: AUC=0.762 Brier=0.1665 ECE=0.0211 platt: AUC=0.762 Brier=0.1722 ECE=0.0650 isotonic: AUC=0.761 Brier=0.1723 ECE=0.0620 platt_oof: AUC=0.762 Brier=0.1658 ECE=0.0093
+rf seed=1005 fit=12.8s | raw: AUC=0.763 Brier=0.1663 ECE=0.0202 platt: AUC=0.763 Brier=0.1720 ECE=0.0657 isotonic: AUC=0.762 Brier=0.1721 ECE=0.0623 platt_oof: AUC=0.763 Brier=0.1657 ECE=0.0080
+rf seed=1006 fit=12.5s | raw: AUC=0.762 Brier=0.1664 ECE=0.0205 platt: AUC=0.762 Brier=0.1720 ECE=0.0646 isotonic: AUC=0.762 Brier=0.1722 ECE=0.0616 platt_oof: AUC=0.762 Brier=0.1657 ECE=0.0081
+rf seed=1007 fit=12.4s | raw: AUC=0.762 Brier=0.1665 ECE=0.0206 platt: AUC=0.762 Brier=0.1721 ECE=0.0651 isotonic: AUC=0.762 Brier=0.1722 ECE=0.0621 platt_oof: AUC=0.762 Brier=0.1658 ECE=0.0086
+rf seed=1008 fit=12.4s | raw: AUC=0.762 Brier=0.1666 ECE=0.0227 platt: AUC=0.762 Brier=0.1721 ECE=0.0636 isotonic: AUC=0.761 Brier=0.1722 ECE=0.0606 platt_oof: AUC=0.762 Brier=0.1659 ECE=0.0098
+rf seed=1009 fit=12.3s | raw: AUC=0.763 Brier=0.1664 ECE=0.0212 platt: AUC=0.763 Brier=0.1720 ECE=0.0642 isotonic: AUC=0.762 Brier=0.1721 ECE=0.0615 platt_oof: AUC=0.763 Brier=0.1658 ECE=0.0085
+rf seed=1010 fit=12.0s | raw: AUC=0.762 Brier=0.1666 ECE=0.0219 platt: AUC=0.762 Brier=0.1722 ECE=0.0646 isotonic: AUC=0.761 Brier=0.1723 ECE=0.0615 platt_oof: AUC=0.762 Brier=0.1659 ECE=0.0096
+xgb seed=1001 fit=4.4s | raw: AUC=0.765 Brier=0.1652 ECE=0.0097 platt: AUC=0.765 Brier=0.1698 ECE=0.0574 isotonic: AUC=0.765 Brier=0.1701 ECE=0.0574 platt_oof: AUC=0.765 Brier=0.1651 ECE=0.0057
+xgb seed=1002 fit=4.2s | raw: AUC=0.765 Brier=0.1651 ECE=0.0105 platt: AUC=0.765 Brier=0.1699 ECE=0.0578 isotonic: AUC=0.765 Brier=0.1701 ECE=0.0580 platt_oof: AUC=0.765 Brier=0.1650 ECE=0.0064
+xgb seed=1003 fit=4.0s | raw: AUC=0.765 Brier=0.1654 ECE=0.0097 platt: AUC=0.765 Brier=0.1699 ECE=0.0570 isotonic: AUC=0.765 Brier=0.1702 ECE=0.0573 platt_oof: AUC=0.765 Brier=0.1653 ECE=0.0041
+xgb seed=1004 fit=5.2s | raw: AUC=0.766 Brier=0.1651 ECE=0.0091 platt: AUC=0.766 Brier=0.1699 ECE=0.0578 isotonic: AUC=0.766 Brier=0.1701 ECE=0.0579 platt_oof: AUC=0.766 Brier=0.1650 ECE=0.0048
+xgb seed=1005 fit=5.1s | raw: AUC=0.766 Brier=0.1652 ECE=0.0099 platt: AUC=0.766 Brier=0.1699 ECE=0.0574 isotonic: AUC=0.765 Brier=0.1700 ECE=0.0572 platt_oof: AUC=0.766 Brier=0.1651 ECE=0.0042
+xgb seed=1006 fit=4.0s | raw: AUC=0.764 Brier=0.1655 ECE=0.0107 platt: AUC=0.764 Brier=0.1701 ECE=0.0572 isotonic: AUC=0.764 Brier=0.1704 ECE=0.0573 platt_oof: AUC=0.764 Brier=0.1654 ECE=0.0055
+xgb seed=1007 fit=3.9s | raw: AUC=0.765 Brier=0.1653 ECE=0.0108 platt: AUC=0.765 Brier=0.1700 ECE=0.0581 isotonic: AUC=0.765 Brier=0.1702 ECE=0.0580 platt_oof: AUC=0.765 Brier=0.1652 ECE=0.0056
+xgb seed=1008 fit=4.1s | raw: AUC=0.766 Brier=0.1650 ECE=0.0093 platt: AUC=0.766 Brier=0.1697 ECE=0.0573 isotonic: AUC=0.765 Brier=0.1699 ECE=0.0572 platt_oof: AUC=0.766 Brier=0.1649 ECE=0.0048
+xgb seed=1009 fit=3.9s | raw: AUC=0.765 Brier=0.1653 ECE=0.0103 platt: AUC=0.765 Brier=0.1698 ECE=0.0568 isotonic: AUC=0.764 Brier=0.1701 ECE=0.0569 platt_oof: AUC=0.765 Brier=0.1652 ECE=0.0054
+xgb seed=1010 fit=4.0s | raw: AUC=0.765 Brier=0.1652 ECE=0.0089 platt: AUC=0.765 Brier=0.1698 ECE=0.0565 isotonic: AUC=0.765 Brier=0.1700 ECE=0.0564 platt_oof: AUC=0.765 Brier=0.1651 ECE=0.0048
+                auc_roc          auc_pr              f1           brier             ece        
+                   mean     std    mean     std    mean     std    mean     std    mean     std
+model calib                                                                                    
+lr    isotonic   0.7428  0.0000  0.8761  0.0000  0.8464  0.0000  0.1769  0.0000  0.0732  0.0000
+      platt      0.7431  0.0000  0.8799  0.0000  0.8465  0.0000  0.1769  0.0000  0.0713  0.0000
+      platt_oof  0.7431  0.0000  0.8799  0.0000  0.8466  0.0000  0.1717  0.0000  0.0274  0.0000
+      raw        0.7431  0.0000  0.8799  0.0000  0.8460  0.0000  0.1718  0.0000  0.0288  0.0000
+rf    isotonic   0.7618  0.0004  0.8852  0.0010  0.8486  0.0004  0.1722  0.0001  0.0616  0.0006
+      platt      0.7623  0.0003  0.8906  0.0003  0.8488  0.0001  0.1721  0.0001  0.0646  0.0007
+      platt_oof  0.7623  0.0003  0.8906  0.0003  0.8488  0.0001  0.1658  0.0001  0.0089  0.0009
+      raw        0.7623  0.0003  0.8906  0.0003  0.8488  0.0001  0.1665  0.0001  0.0212  0.0010
+xgb   isotonic   0.7648  0.0005  0.8902  0.0005  0.8482  0.0003  0.1701  0.0001  0.0574  0.0005
+      platt      0.7652  0.0005  0.8946  0.0002  0.8481  0.0004  0.1699  0.0001  0.0573  0.0005
+      platt_oof  0.7652  0.0005  0.8946  0.0002  0.8482  0.0003  0.1651  0.0001  0.0051  0.0007
+      raw        0.7652  0.0005  0.8946  0.0002  0.8482  0.0003  0.1652  0.0001  0.0099  0.0007

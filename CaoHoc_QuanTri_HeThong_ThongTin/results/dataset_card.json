@@ -1,0 +1,152 @@
+{
+  "tau_10": {
+    "n_features": 79,
+    "splits": {
+      "test": {
+        "cases": 8037,
+        "late_share": 0.7854,
+        "label_status": {
+          "observed": 7939,
+          "censored_known_late": 98
+        },
+        "snapshots": 75388,
+        "snapshot_late_share": 0.8373,
+        "start_min": "2016-10-01 06:22:40.634000+00:00",
+        "start_max": "2016-12-31 21:37:53.216000+00:00"
+      },
+      "train": {
+        "cases": 17345,
+        "late_share": 0.7933,
+        "label_status": {
+          "observed": 17345
+        },
+        "snapshots": 163619,
+        "snapshot_late_share": 0.841,
+        "start_min": "2016-01-01 09:51:15.304000+00:00",
+        "start_max": "2016-07-31 21:55:50.887000+00:00"
+      },
+      "valcal": {
+        "cases": 3085,
+        "late_share": 0.8535,
+        "label_status": {
+          "observed": 3085
+        },
+        "snapshots": 29561,
+        "snapshot_late_share": 0.8907,
+        "start_min": "2016-08-01 00:03:27.911000+00:00",
+        "start_max": "2016-08-31 23:13:46.524000+00:00"
+      },
+      "valsel": {
+        "cases": 3042,
+        "late_share": 0.883,
+        "label_status": {
+          "observed": 3042
+        },
+        "snapshots": 29394,
+        "snapshot_late_share": 0.9138,
+        "start_min": "2016-09-01 00:08:46.819000+00:00",
+        "start_max": "2016-09-30 21:23:36.775000+00:00"
+      }
+    }
+  },
+  "tau_14": {
+    "n_features": 79,
+    "splits": {
+      "test": {
+        "cases": 8037,
+        "late_share": 0.6282,
+        "label_status": {
+          "observed": 7939,
+          "censored_known_late": 98
+        },
+        "snapshots": 98380,
+        "snapshot_late_share": 0.7185,
+        "start_min": "2016-10-01 06:22:40.634000+00:00",
+        "start_max": "2016-12-31 21:37:53.216000+00:00"
+      },
+      "train": {
+        "cases": 17345,
+        "late_share": 0.6239,
+        "label_status": {
+          "observed": 17345
+        },
+        "snapshots": 213363,
+        "snapshot_late_share": 0.7101,
+        "start_min": "2016-01-01 09:51:15.304000+00:00",
+        "start_max": "2016-07-31 21:55:50.887000+00:00"
+      },
+      "valcal": {
+        "cases": 3085,
+        "late_share": 0.7105,
+        "label_status": {
+          "observed": 3085
+        },
+        "snapshots": 39343,
+        "snapshot_late_share": 0.78,
+        "start_min": "2016-08-01 00:03:27.911000+00:00",
+        "start_max": "2016-08-31 23:13:46.524000+00:00"
+      },
+      "valsel": {
+        "cases": 3042,
+        "late_share": 0.7058,
+        "label_status": {
+          "observed": 3042
+        },
+        "snapshots": 39176,
+        "snapshot_late_share": 0.7673,
+        "start_min": "2016-09-01 00:08:46.819000+00:00",
+        "start_max": "2016-09-30 21:23:36.775000+00:00"
+      }
+    }
+  },
+  "tau_21": {
+    "n_features": 79,
+    "splits": {
+      "test": {
+        "cases": 8037,
+        "late_share": 0.4515,
+        "label_status": {
+          "observed": 7939,
+          "censored_known_late": 98
+        },
+        "snapshots": 128508,
+        "snapshot_late_share": 0.593,
+        "start_min": "2016-10-01 06:22:40.634000+00:00",
+        "start_max": "2016-12-31 21:37:53.216000+00:00"
+      },
+      "train": {
+        "cases": 17345,
+        "late_share": 0.4517,
+        "label_status": {
+          "observed": 17345
+        },
+        "snapshots": 277921,
+        "snapshot_late_share": 0.5919,
+        "start_min": "2016-01-01 09:51:15.304000+00:00",
+        "start_max": "2016-07-31 21:55:50.887000+00:00"
+      },
+      "valcal": {
+        "cases": 3085,
+        "late_share": 0.5128,
+        "label_status": {
+          "observed": 3085
+        },
+        "snapshots": 52491,
+        "snapshot_late_share": 0.6329,
+        "start_min": "2016-08-01 00:03:27.911000+00:00",
+        "start_max": "2016-08-31 23:13:46.524000+00:00"
+      },
+      "valsel": {
+        "cases": 3042,
+        "late_share": 0.5023,
+        "label_status": {
+          "observed": 3042
+        },
+        "snapshots": 51961,
+        "snapshot_late_share": 0.6175,
+        "start_min": "2016-09-01 00:08:46.819000+00:00",
+        "start_max": "2016-09-30 21:23:36.775000+00:00"
+      }
+    }
+  }
+}

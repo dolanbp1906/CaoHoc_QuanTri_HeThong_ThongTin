@@ -1,0 +1,54 @@
+# Cấu hình thí nghiệm chính – ĐT01 (CSE631)
+# Mọi tham số chi phí/thiệt hại/hiệu quả là GIẢ ĐỊNH THÍ NGHIỆM, không phải số liệu của ngân hàng.
+
+data:
+  raw: data/raw/bpi2017.xes.gz
+  events: data/processed/events.parquet
+  source_url: https://data.4tu.nl/articles/dataset/BPI_Challenge_2017/12696884
+  doi: 10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b
+  license: 4TU General Terms of Use (https://doi.org/10.4121/resource:terms_of_use)
+  start_activity: A_Create Application
+  terminal_activities: [A_Pending, A_Denied, A_Cancelled]   # kết quả hồ sơ = mốc kết thúc
+  extraction_time: "2017-02-01T14:11:03Z"                     # sự kiện cuối cùng trong log
+
+label:
+  tau_days: 14            # ngưỡng hạn – KỊCH BẢN, không phải SLA thật
+  tau_sensitivity: [10, 14, 21]
+
+split:                    # theo thời điểm bắt đầu hồ sơ (UTC)
+  train_end: "2016-08-01"
+  valcal_end: "2016-09-01"   # 08/2016: fit bộ hiệu chỉnh
+  val_end: "2016-10-01"      # 09/2016: chọn mô hình/bộ hiệu chỉnh/ngưỡng
+  # test: hồ sơ bắt đầu từ 01/10/2016
+
+snapshots:
+  hour_utc: 0             # dự báo hằng ngày lúc 00:00 UTC cho mọi hồ sơ đang mở và chưa quá hạn
+
+models:
+  lr:  {C: 1.0, max_iter: 2000}
+  rf:  {n_estimators: 300, min_samples_leaf: 20, max_features: sqrt, n_jobs: -1}
+  xgb: {n_estimators: 400, max_depth: 6, learning_rate: 0.05, subsample: 0.8, colsample_bytree: 0.8, n_jobs: -1}
+
+calibration:
+  methods: [raw, platt, isotonic, platt_oof]   # platt/isotonic fit trên valcal; platt_oof fit trên OOF của train
+  ece_bins: 15
+
+policy:
+  epoch: weekly_monday     # thời điểm ra quyết định: thứ Hai 00:00 UTC
+  budgets: [0.05, 0.10, 0.20]       # B = tỷ lệ tổng chi phí của các ứng viên tại epoch
+  effects: [0.1, 0.3, 0.5]          # e – hiệu quả can thiệp giả lập
+  main_budget: 0.10
+  main_effect: 0.3
+  cost:   # chi phí can thiệp c_i (đơn vị chi phí quy ước, CU): 1 + min(2, số offer đã tạo)
+    base: 1.0
+    per_offer: 1.0
+    max_extra: 2.0
+  loss:   # thiệt hại nếu trễ L_i (CU): 5 + RequestedAmount/2000
+    base: 5.0
+    per_amount: 0.0005
+
+seeds: [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010]
+
+stress:
+  missing_rates: [0.0, 0.1, 0.3]
+  censor_cutoff: "2016-08-01"   # mô phỏng trích xuất dữ liệu train sớm để tạo hồ sơ censored

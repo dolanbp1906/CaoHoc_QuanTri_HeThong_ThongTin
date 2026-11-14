@@ -1,0 +1,7 @@
+missing 0.0 done
+missing 0.1 done
+missing 0.3 done
+tau 10 done
+tau 14 done
+tau 21 done
+MILP fallbacks: 0

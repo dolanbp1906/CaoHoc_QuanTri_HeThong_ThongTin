@@ -1,0 +1,377 @@
+{
+ "tax2017": {
+  "doi": "10.1007/978-3-319-59536-8_30",
+  "title": "Predictive Business Process Monitoring with LSTM Neural Networks",
+  "authors": [
+   "Tax, Niek",
+   "Verenich, Ilya",
+   "La Rosa, Marcello",
+   "Dumas, Marlon"
+  ],
+  "year": 2017,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "477-492",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "teinemaa2019": {
+  "doi": "10.1145/3301300",
+  "title": "Outcome-Oriented Predictive Process Monitoring",
+  "authors": [
+   "Teinemaa, Irene",
+   "Dumas, Marlon",
+   "Rosa, Marcello La",
+   "Maggi, Fabrizio Maria"
+  ],
+  "year": 2019,
+  "venue": "ACM Transactions on Knowledge Discovery from Data",
+  "volume": "13",
+  "issue": "2",
+  "pages": "1-57",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "verified": true
+ },
+ "verenich2019": {
+  "doi": "10.1145/3331449",
+  "title": "Survey and Cross-benchmark Comparison of Remaining Time Prediction Methods in Business Process Monitoring",
+  "authors": [
+   "Verenich, Ilya",
+   "Dumas, Marlon",
+   "Rosa, Marcello La",
+   "Maggi, Fabrizio Maria",
+   "Teinemaa, Irene"
+  ],
+  "year": 2019,
+  "venue": "ACM Transactions on Intelligent Systems and Technology",
+  "volume": "10",
+  "issue": "4",
+  "pages": "1-34",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "verified": true
+ },
+ "fahrenkrog2022": {
+  "doi": "10.1007/s10115-021-01633-w",
+  "title": "Fire now, fire later: alarm-based systems for prescriptive process monitoring",
+  "authors": [
+   "Fahrenkrog-Petersen, Stephan A.",
+   "Tax, Niek",
+   "Teinemaa, Irene",
+   "Dumas, Marlon",
+   "Leoni, Massimiliano de",
+   "Maggi, Fabrizio Maria",
+   "Weidlich, Matthias"
+  ],
+  "year": 2022,
+  "venue": "Knowledge and Information Systems",
+  "volume": "64",
+  "issue": "2",
+  "pages": "559-587",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "verified": true
+ },
+ "teinemaa2018": {
+  "doi": "10.1007/978-3-319-98651-7_6",
+  "title": "Alarm-Based Prescriptive Process Monitoring",
+  "authors": [
+   "Teinemaa, Irene",
+   "Tax, Niek",
+   "de Leoni, Massimiliano",
+   "Dumas, Marlon",
+   "Maggi, Fabrizio Maria"
+  ],
+  "year": 2018,
+  "venue": "Lecture Notes in Business Information Processing",
+  "volume": null,
+  "issue": null,
+  "pages": "91-107",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "shoush2022": {
+  "doi": "10.1007/978-3-030-98581-3_14",
+  "title": "Prescriptive Process Monitoring Under Resource Constraints: A Causal Inference Approach",
+  "authors": [
+   "Shoush, Mahmoud",
+   "Dumas, Marlon"
+  ],
+  "year": 2022,
+  "venue": "Lecture Notes in Business Information Processing",
+  "volume": null,
+  "issue": null,
+  "pages": "180-193",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "bozorgi2021": {
+  "doi": "10.1109/ICPM53251.2021.9576858",
+  "verified": false,
+  "error": "404"
+ },
+ "kubrak2022": {
+  "doi": "10.7717/peerj-cs.1097",
+  "title": "Prescriptive process monitoring:\n                    <i>Quo vadis</i>\n                    ?",
+  "authors": [
+   "Kubrak, Kateryna",
+   "Milani, Fredrik",
+   "Nolte, Alexander",
+   "Dumas, Marlon"
+  ],
+  "year": 2022,
+  "venue": "PeerJ Computer Science",
+  "volume": "8",
+  "issue": null,
+  "pages": "e1097",
+  "publisher": "PeerJ",
+  "type": "journal-article",
+  "verified": false
+ },
+ "metzger2019": {
+  "doi": "10.1007/978-3-030-21290-2_34",
+  "title": "Proactive Process Adaptation Using Deep Learning Ensembles",
+  "authors": [
+   "Metzger, Andreas",
+   "Neubauer, Adrian",
+   "Bohn, Philipp",
+   "Pohl, Klaus"
+  ],
+  "year": 2019,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "547-562",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "metzger2020": {
+  "doi": "10.1007/978-3-030-58666-9_16",
+  "title": "Triggering Proactive Business Process Adaptations via Online Reinforcement Learning",
+  "authors": [
+   "Metzger, Andreas",
+   "Kley, Tristan",
+   "Palm, Alexander"
+  ],
+  "year": 2020,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "273-290",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "bozorgi2023": {
+  "doi": "10.1007/978-3-031-34560-9_22",
+  "title": "Learning When to Treat Business Processes: Prescriptive Process Monitoring with Causal Inference and Reinforcement Learning",
+  "authors": [
+   "Bozorgi, Zahra Dasht",
+   "Dumas, Marlon",
+   "Rosa, Marcello La",
+   "Polyvyanyy, Artem",
+   "Shoush, Mahmoud",
+   "Teinemaa, Irene"
+  ],
+  "year": 2023,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "364-380",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "niculescu2005": {
+  "doi": "10.1145/1102351.1102430",
+  "title": "Predicting good probabilities with supervised learning",
+  "authors": [
+   "Niculescu-Mizil, Alexandru",
+   "Caruana, Rich"
+  ],
+  "year": 2005,
+  "venue": "Proceedings of the 22nd international conference on Machine learning  - ICML '05",
+  "volume": null,
+  "issue": null,
+  "pages": "625-632",
+  "publisher": "ACM Press",
+  "type": "proceedings-article",
+  "verified": true
+ },
+ "zadrozny2002": {
+  "doi": "10.1145/775047.775151",
+  "title": "Transforming classifier scores into accurate multiclass probability estimates",
+  "authors": [
+   "Zadrozny, Bianca",
+   "Elkan, Charles"
+  ],
+  "year": 2002,
+  "venue": "Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining",
+  "volume": null,
+  "issue": null,
+  "pages": "694-699",
+  "publisher": "ACM",
+  "type": "proceedings-article",
+  "verified": true
+ },
+ "brier1950": {
+  "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+  "title": "VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY",
+  "authors": [
+   "BRIER, GLENN W."
+  ],
+  "year": 1950,
+  "venue": "Monthly Weather Review",
+  "volume": "78",
+  "issue": "1",
+  "pages": "1-3",
+  "publisher": "American Meteorological Society",
+  "type": "journal-article",
+  "verified": true
+ },
+ "gama2014": {
+  "doi": "10.1145/2523813",
+  "title": "A survey on concept drift adaptation",
+  "authors": [
+   "Gama, João",
+   "Žliobaitė, Indrė",
+   "Bifet, Albert",
+   "Pechenizkiy, Mykola",
+   "Bouchachia, Abdelhamid"
+  ],
+  "year": 2014,
+  "venue": "ACM Computing Surveys",
+  "volume": "46",
+  "issue": "4",
+  "pages": "1-37",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article",
+  "verified": true
+ },
+ "maisenbacher2017": {
+  "doi": "10.1109/SCC.2017.10",
+  "title": "Handling Concept Drift in Predictive Process Monitoring",
+  "authors": [
+   "Maisenbacher, Marco",
+   "Weidlich, Matthias"
+  ],
+  "year": 2017,
+  "venue": "2017 IEEE International Conference on Services Computing (SCC)",
+  "volume": null,
+  "issue": null,
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article",
+  "verified": true
+ },
+ "chen2016": {
+  "doi": "10.1145/2939672.2939785",
+  "title": "XGBoost",
+  "authors": [
+   "Chen, Tianqi",
+   "Guestrin, Carlos"
+  ],
+  "year": 2016,
+  "venue": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+  "volume": null,
+  "issue": null,
+  "pages": "785-794",
+  "publisher": "ACM",
+  "type": "proceedings-article",
+  "verified": true
+ },
+ "vanderaalst2016": {
+  "doi": "10.1007/978-3-662-49851-4",
+  "title": "Process Mining",
+  "authors": [
+   "van der Aalst, Wil"
+  ],
+  "year": 2016,
+  "venue": "",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "Springer Berlin Heidelberg",
+  "type": "book",
+  "verified": true
+ },
+ "berti2023": {
+  "doi": "10.1016/j.simpa.2023.100556",
+  "title": "PM4Py: A process mining library for Python",
+  "authors": [
+   "Berti, Alessandro",
+   "van Zelst, Sebastiaan",
+   "Schuster, Daniel"
+  ],
+  "year": 2023,
+  "venue": "Software Impacts",
+  "volume": "17",
+  "issue": null,
+  "pages": "100556",
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "verified": true
+ },
+ "difrancescomarino2018": {
+  "doi": "10.1007/978-3-319-98648-7_27",
+  "title": "Predictive Process Monitoring Methods: Which One Suits Me Best?",
+  "authors": [
+   "Di Francescomarino, Chiara",
+   "Ghidini, Chiara",
+   "Maggi, Fabrizio Maria",
+   "Milani, Fredrik"
+  ],
+  "year": 2018,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "462-479",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "breiman2001": {
+  "doi": "10.1023/A:1010933404324",
+  "title": "Random Forests",
+  "authors": [
+   "Breiman, Leo"
+  ],
+  "year": 2001,
+  "venue": "Machine Learning",
+  "volume": "45",
+  "issue": "1",
+  "pages": "5-32",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "verified": true
+ },
+ "maggi2014": {
+  "doi": "10.1007/978-3-319-07881-6_31",
+  "title": "Predictive Monitoring of Business Processes",
+  "authors": [
+   "Maggi, Fabrizio Maria",
+   "Di Francescomarino, Chiara",
+   "Dumas, Marlon",
+   "Ghidini, Chiara"
+  ],
+  "year": 2014,
+  "venue": "Lecture Notes in Computer Science",
+  "volume": null,
+  "issue": null,
+  "pages": "457-472",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter",
+  "verified": true
+ },
+ "vandongen2017": {
+  "doi": "10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b",
+  "verified": false,
+  "error": "404"
+ }
+}

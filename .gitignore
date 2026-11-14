@@ -1,0 +1,13 @@
+# Chỉ đưa mã nguồn đề tài lên repo
+/*.pdf
+/*.pptx
+/*.docx
+# Dữ liệu: giấy phép 4TU không cho phân phối lại; dùng lệnh tải trong README
+CaoHoc_QuanTri_HeThong_ThongTin/data/raw/
+CaoHoc_QuanTri_HeThong_ThongTin/data/processed/
+CaoHoc_QuanTri_HeThong_ThongTin/report/_tmp.docx
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+~$*

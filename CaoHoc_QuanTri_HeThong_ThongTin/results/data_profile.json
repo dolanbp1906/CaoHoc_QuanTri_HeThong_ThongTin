@@ -1,0 +1,44 @@
+{
+  "n_events": 1202267,
+  "n_cases": 31509,
+  "n_activities": 26,
+  "n_resources": 149,
+  "exact_duplicates": 0,
+  "time_min": "2016-01-01 09:51:15.304000+00:00",
+  "time_max": "2017-02-01 14:11:03.499000+00:00",
+  "case_duration_days": {
+    "count": 31509.0,
+    "mean": 21.9,
+    "std": 13.17,
+    "min": 0.0,
+    "25%": 11.32,
+    "50%": 19.09,
+    "75%": 31.5,
+    "90%": 35.05,
+    "max": 286.07
+  },
+  "share_duration_gt_14d": 0.6405,
+  "top_last_activities": {
+    "W_Validate application": 12662,
+    "W_Call after offers": 9457,
+    "W_Call incomplete files": 4676,
+    "O_Cancelled": 4436,
+    "W_Complete application": 144,
+    "W_Assess potential fraud": 102,
+    "O_Sent (mail and online)": 15,
+    "O_Sent (online only)": 8,
+    "W_Shortened completion ": 5,
+    "W_Personal Loan collection": 2,
+    "A_Denied": 1,
+    "O_Returned": 1
+  },
+  "lifecycle_values": {
+    "complete": 475306,
+    "suspend": 215402,
+    "schedule": 149104,
+    "start": 128227,
+    "resume": 127160,
+    "ate_abort": 85224,
+    "withdraw": 21844
+  }
+}

@@ -1,0 +1,10 @@
+pm4py==2.7.23.12
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+xgboost==3.2.0
+scipy==1.17.1
+pyarrow==24.0.0
+pyyaml==6.0.3
+matplotlib==3.11.1
+pytest==9.2.0
