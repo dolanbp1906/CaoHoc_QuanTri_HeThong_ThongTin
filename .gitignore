@@ -3,9 +3,9 @@
 /*.pptx
 /*.docx
 # Dữ liệu: giấy phép 4TU không cho phân phối lại; dùng lệnh tải trong README
-CaoHoc_QuanTri_HeThong_ThongTin/data/raw/
-CaoHoc_QuanTri_HeThong_ThongTin/data/processed/
-CaoHoc_QuanTri_HeThong_ThongTin/report/_tmp.docx
+DT01_project/data/raw/
+DT01_project/data/processed/
+DT01_project/report/_tmp.docx
 .venv/
 __pycache__/
 *.pyc
